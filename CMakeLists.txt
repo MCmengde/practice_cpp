@@ -7,7 +7,10 @@ add_executable(practice_cpp main.cpp)
 
 find_package(GTest REQUIRED)
 
-add_executable(practice_test type_inference.cpp)
+include_directories(./)
+
+add_executable(practice_test advanced_cpp20_programming/type_and_object/type_inference.cpp
+        advanced_cpp20_programming/type_and_object/value_categroy.cpp)
 
 target_link_libraries(practice_test GTest::GTest GTest::Main)
 

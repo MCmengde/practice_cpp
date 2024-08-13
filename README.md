@@ -4,4 +4,4 @@ Some gists of practicing c++
 
 ## Contents
 
-[type inference](./type_inference.cpp)
+[type inference](advanced_cpp20_programming/type_and_object/type_inference.cpp)

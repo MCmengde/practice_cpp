@@ -10,6 +10,7 @@ find_package(GTest CONFIG REQUIRED)
 include_directories(./)
 
 add_executable(practice_test advanced_cpp20_programming/type_and_object/type_inference.cpp
-        advanced_cpp20_programming/type_and_object/value_categroy.cpp)
+        advanced_cpp20_programming/type_and_object/value_categroy.cpp
+        advanced_cpp20_programming/type_and_object/function_object.cpp)
 
 target_link_libraries(practice_test GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)

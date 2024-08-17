@@ -123,5 +123,5 @@ namespace Declval {
 
     /// with declval
     template<typename F, typename... Args>
-    using InvokeResultOfFunc = decltype(std::declval<F>()(std::declval<Args>()...));
+    using InvokeResultOfFunc_ad = decltype(std::declval<F>()(std::declval<Args>()...));
 }
